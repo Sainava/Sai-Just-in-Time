@@ -163,14 +163,12 @@ For **FLUX.2-klein-base-9B**, we do not apply this custom beta schedule. Its nat
 If you find this project useful in your research, please consider citing it:
 
 ```bibtex
-@misc{sun2026justintimetrainingfreespatialacceleration,
-      title={Just-in-Time: Training-Free Spatial Acceleration for Diffusion Transformers}, 
-      author={Wenhao Sun and Ji Li and Zhaoqiang Liu},
-      year={2026},
-      eprint={2603.10744},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.10744}
+@inproceedings{sun2026just,
+  title={Just-in-time: Training-free spatial acceleration for diffusion Transformers},
+  author={Sun, Wenhao and Li, Ji and Liu, Zhaoqiang},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={40643--40652},
+  year={2026}
 }
 ```
 
