@@ -1,0 +1,7 @@
+PHASE_2_ARCHITECTURAL_AUDIT.md
+PHASE_3_EVALUATION_PROTOCOL_AUDIT.md
+Phase 4—Reproduction_Configuration_Matrix_JiT.md
+Phase4_Configuration_JiT.json
+Phase4_Diffusers_Bugfix_Report.md
+Phase4_JiT_Reproduction.ipynb
+Phase4_Telemetry_JiT.csv
