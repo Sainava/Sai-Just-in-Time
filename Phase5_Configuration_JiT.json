@@ -1,0 +1,30 @@
+{
+    "hardware": "Kaggle T4 x 2 (16GB VRAM each)",
+    "multi_gpu_device_map": {
+        "text_encoder": 1,
+        "text_encoder_2": 1,
+        "tokenizer": 1,
+        "tokenizer_2": 1,
+        "vae": 0,
+        "transformer": 0
+    },
+    "jit_parameters": {
+        "total_steps": 18,
+        "stage_ratios": [
+            0.4,
+            0.65,
+            1.0
+        ],
+        "sparsity_ratios": [
+            0.35,
+            0.62,
+            1.0
+        ],
+        "use_checkerboard_init": true,
+        "use_adaptive": true,
+        "use_beta_sigmas": true,
+        "alpha": 1.4,
+        "beta": 0.425,
+        "microflow_relax_steps": 3
+    }
+}
